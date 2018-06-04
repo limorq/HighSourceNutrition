@@ -1,0 +1,187 @@
+#navbar {
+    margin-bottom: 0px; 
+    text-align: center; 
+    background-color: #809502;
+    display: flex;
+    height: 65px;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+#brand {
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 4px;
+	color: floralwhite;
+	text-align: left;
+	padding-left: 2%;
+	text-shadow: 4px 0px 10px black;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    min-width: 600px;
+}
+#phone {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-shadow: 2px 0px 10px black;
+  	font-size: 1.2em;
+  	color: floralwhite;
+  	display: inline;
+  	margin-left: 45%;
+  	padding-top: 1.2%;
+}
+.flex-container {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-start;
+  	overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    margin-top: 65px;
+    width: 100%; /* Full width */
+    background-color: floralwhite;
+}
+.flex-container > div {
+  	padding-left: 2.5%;
+	padding-top: .5%;
+	margin-left: 2%;
+}
+#homeButton {
+	color: darkorange;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	background-color: transparent;
+    border: none;
+    height: 30px;
+    font-size: 1.3em;
+}
+#homeButton:hover {
+    background-color: darkorange; /* Green */
+    color: white;
+    border-radius: 2px;
+	font-size: 1.3em;
+}
+#cart {
+	margin-left: 2900%;
+}
+.navButton {
+	color: #0074b3;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	background-color: transparent;
+    border: none;
+    height: 30px;
+    margin-bottom: 2%;
+    font-size: 1.3em;
+}
+.navButton:hover {
+    background-color: #0074b3; /* Green */
+    color: white;
+    border-radius: 2px;
+    font-size: 1.3em;
+}
+.search {
+  width: 50%;
+  position: relative
+}
+.searchTerm {
+  float: left;
+  left 20;
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.searchTerm:focus{
+  color: #00B4CC;
+}
+.searchButton {
+  position: absolute;  
+  right: -42px;
+  width: 40px;
+  height: 30px;
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+}
+.shopButton {
+  position: absolute;
+  top: 18%;
+  left: 67%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  opacity: 0.8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.4em;
+  padding: 5px;
+  width: 130px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.shopButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.shopButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.shopButton:hover span {
+  padding-right: 25px;
+}
+
+.shopButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.category {
+	height: 400px;
+	width: 550px;
+	position: absolute;
+	top: 20%;
+    left: 10%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: floralwhite;
+    opacity: 0.8;
+    border: 1px solid black;
+    color: black;
+}
+.frontBoxTerms {
+	font-family: 'Roboto Slab', serif;
+}
+.table {
+	margin-left: 9%;
+}
+table {
+	border: none;
+}
