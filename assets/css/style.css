@@ -1,9 +1,20 @@
+html {
+width: 1440px;
+}
+
+body {
+    margin-top: 35%;
+    background: url("../images/journey1.jpg");
+    height: 300px; 
+    background-position: center;
+    background-repeat: no-repeat;    
+}
 #navbar {
     margin-bottom: 0px; 
     text-align: center; 
     background-color: #809502;
     display: flex;
-    height: 65px;
+    height: 120px;
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -17,19 +28,20 @@
 	padding-left: 2%;
 	text-shadow: 4px 0px 10px black;
 	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-    min-width: 600px;
+  -webkit-text-stroke-color: black;
+  min-width: 1000px;
+  font-size: 5em;
 }
 #phone {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	letter-spacing: 3px;
 	text-shadow: 2px 0px 10px black;
-  	font-size: 1.2em;
-  	color: floralwhite;
-  	display: inline;
-  	margin-left: 45%;
-  	padding-top: 1.2%;
+  font-size: 1.9em;
+  color: floralwhite;
+  display: inline;
+  margin-left: 10%;
+  padding-top: 3%;
 }
 .flex-container {
   	display: flex;
@@ -37,12 +49,12 @@
   	justify-content: flex-start;
   	overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
-    margin-top: 65px;
+    margin-top: -27%;
     width: 100%; /* Full width */
     background-color: floralwhite;
 }
 .flex-container > div {
-  	padding-left: 2.5%;
+  padding-left: 2.5%;
 	padding-top: .5%;
 	margin-left: 2%;
 }
@@ -51,15 +63,16 @@
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	background-color: transparent;
-    border: none;
-    height: 30px;
-    font-size: 1.3em;
+  border: none;
+  height: 30px;
+  font-size: 1.9em;
+  margin-bottom: 15%;
 }
 #homeButton:hover {
-    background-color: darkorange; /* Green */
-    color: white;
-    border-radius: 2px;
-	font-size: 1.3em;
+  background-color: darkorange; /* Green */
+  color: white;
+  border-radius: 2px;
+	font-size: 1.9em;
 }
 #cart {
 	margin-left: 2900%;
@@ -69,19 +82,18 @@
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	background-color: transparent;
-    border: none;
-    height: 30px;
-    margin-bottom: 2%;
-    font-size: 1.3em;
+  border: none;
+  height: 30px;
+  margin-bottom: 15%;
+  font-size: 1.9em;
 }
 .navButton:hover {
     background-color: #0074b3; /* Green */
     color: white;
     border-radius: 2px;
-    font-size: 1.3em;
+    font-size: 1.9em;
 }
 .search {
-  width: 50%;
   position: relative
 }
 .searchTerm {
@@ -90,10 +102,11 @@
   width: 100%;
   border: 1px solid black;
   padding: 5px;
-  height: 30px;
+  height: 60px;
   border-radius: 5px;
   outline: none;
   color: #9DBFAF;
+  font-size: 30px;
 }
 .searchTerm:focus{
   color: #00B4CC;
@@ -101,38 +114,38 @@
 .searchButton {
   position: absolute;  
   right: -42px;
-  width: 40px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   border: 1px solid black;
   background: white;
   text-align: center;
   color: black;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 45px;
 }
 .wrap{
   width: 30%;
   position: absolute;
   top: 15%;
-  left: 78%;
+  left: 103%;
   transform: translate(-50%, -50%);
 }
 .shopButton {
   position: absolute;
-  top: 18%;
-  left: 67%;
+  top: 19%;
+  left: 92%;
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
   opacity: 0.8;
   border: none;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 2.4em;
   padding: 5px;
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 100px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -165,23 +178,119 @@
 }
 .category {
 	height: 400px;
-	width: 550px;
+	width: 650px;
 	position: absolute;
-	top: 20%;
-    left: 10%;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: floralwhite;
-    opacity: 0.8;
-    border: 1px solid black;
-    color: black;
+	top: 15%;
+  left: 12%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: floralwhite;
+  opacity: 0.8;
+  border: 1px solid black;
+  color: black;
 }
-.frontBoxTerms {
+.boxTerms {
 	font-family: 'Roboto Slab', serif;
+  font-weight: bold;
 }
 .table {
-	margin-left: 9%;
+  margin-left: 4%;
+  border: none;
 }
-table {
-	border: none;
+#slogan {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 4px;
+  font-size: 2.5em;
+  color: #0074b3;
+  font-style: italic;
+}
+#sloganBox {
+  position: absolute;
+  top: 43%;
+  height: 60;
+  width: 1440px;
+  background: linear-gradient(to bottom, #AFC102 -15%, #F4F0EF 25%, #F4F0EF 50%,#F4F0EF 75%, #AFC102 125%);
+}
+#mostPopularSlider {
+  position: absolute;
+  top: 53%;
+  height: 300px;
+  width: 1200px;
+  margin-left: 12%;
+}
+.mostPopularBox {
+  width: 200px;
+  text-align: center;
+}
+.popLine {
+  width: 1100px;
+  position: absolute;
+  top: 48%;
+  left: 2%;
+  color: #0074b3;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.newProdLine {
+  width: 1100px;
+  position: absolute;
+  top: 72%;
+  left: 2%;
+  color: #0074b3;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#newProdRow {
+  position: absolute;
+  top: 77%;
+  height: 300px;
+  width: 1200px;
+  margin-left: 14%;
+}
+#genInfoSection {
+  position: absolute;
+  top: 94.3%;
+  background-image: url("../images/natural.jpg");
+  height: 800px; 
+  width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+#infoBox {
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  top: 23%;
+  left: 15%;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: floralwhite;
+  opacity: 0.7;
+  border: 1px solid black;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  padding: 3%;
+}
+#jumbo {
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-shadow: 4px 0px 10px black;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   margin-top: 5%;
+}
+.footer {
+  position: absolute;
+  top: 140%;
+  height: 290px;
+  width: 1440px;
+  background-color: #6D8A14;
+  opacity: 0.8;
 }
