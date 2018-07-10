@@ -1,35 +1,34 @@
 $(document).ready(function(){
       $('.slider').slick({
 		  dots: true,
-		  infinite: true,
+		  infinite: false,
 		  speed: 500,
-		  autoplay: true,
+		  autoplay: false,
 		  autoplaySpeed: 5000,
-		  slidesToShow: 10,
+		  slidesToShow: 4,
 		  slidesToScroll: 1,
-		  variableWidth: true,
+		  variableWidth: false,
 		  arrows: true,
 		  responsive: [
 		    {
 		      breakpoint: 1024,
 		      settings: {
 		        slidesToShow: 8,
-		        slidesToScroll: 1,
-		        infinite: true,
+		        slidesToScroll: 3,
 		        dots: true
 		      }
 		    },
 		    {
 		      breakpoint: 600,
 		      settings: {
-		        slidesToShow: 2,
+		        slidesToShow: 8,
 		        slidesToScroll: 1
 		      }
 		    },
 		    {
 		      breakpoint: 480,
 		      settings: {
-		        slidesToShow: 1,
+		        slidesToShow: 8,
 		        slidesToScroll: 1
 		      }
 		    }

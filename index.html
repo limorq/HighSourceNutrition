@@ -3,6 +3,7 @@
 
  <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
 	<title>High Source Nutriton</title>
 
     <!-- Link to the bootstrap cdn -->
@@ -10,62 +11,60 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
 	<!-- Link to the style sheet -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleFrontPage.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery768.css">
 	<!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab|Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <!--Slick.js-->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	  crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	
  </head>
 
- <body>
+<body>
+<!--fluid container that holds everything-->
+<div id="fluidContainer">	
  	<!--Header Box-->
- 	<div id="navbar" class="fixed-top">
- 		<h1 id="brand">HIGH SOURCE NUTRITION</h1>
- 		<h2 id="phone">(424) 279-5158</h2>
+ 	<div id="brandBar" class="fixed-top">
+ 		<p id="brand">HIGH SOURCE NUTRITION</p>
+ 		<p id="phone">(424) 279-5158</p>
  	</div>
  	<!--Nav Bar-->
- 	<div class="flex-container fixed-top">
+ 	<div id="navBar" class="fixed-top">
  		<div>
- 			<button id="homeButton">Home</button>
+ 			<a href = "index.html">
+ 				<button id="homeButton">Home</button>
+ 			</a>
  		</div> 
  		<div>
- 			<button class="navButton">Departments</button>
+ 			<a href="departments.html">
+ 				<button class="navButton">Departments</button>
+ 			</a>
  		</div>
  		<div>
- 			<button class="navButton">Concerns</button>
+ 			<a href="about.html">
+ 				<button class="navButton">About</button>
+ 			</a>
  		</div>
  		<div>
- 			<button class="navButton">Goals</button>
- 		</div>
- 		<div>
- 			<button class="navButton">About</button>
- 		</div>
- 		<div>
- 			<button class="navButton">Contact</button>
+ 			<a href="contact">
+ 				<button class="navButton">Contact</button>
+ 			</a>
  		</div>
  		<div>
  			<i id="cart" class="material-icons">shopping_cart</i>
  		</div>
  	</div>
 
- 	<!--container that holds eveyrhing on top of the background image in the top half of the page-->
+ 	<!--container that holds eveything on top of the background image in the top half of the page-->
  	<div class="topFoldContainer">
  		<!--search box-->
 		<div class="wrap">
 		   <div class="search">
 		      <input type="text" class="searchTerm" placeholder="Product Search...">
 		      <button type="submit" class="searchButton">
-		        <p><span class="glyphicon glyphicon-search"></span></p>
+		        <p><span class="glyphicon glyphicon-search" style="right: 3.6px; top: 0px;"></span></p>
 		     </button>
 		   </div>
 		</div><!--end search box-->
@@ -77,146 +76,106 @@
 
 		<!--category box-->
 		<div class="category"> 
-			<h3 class="boxTerms" style="text-align: center">Vitamins & Supplements</h3>
+			<h3 class="boxHead" style="text-align: center">Vitamins & Supplements</h3>
 			<hr>
-			<table class="boxTerms table" style="border:none; width:100%">
-			  <tr>
-			    <td>Anxiety</td>
-			    <td>B12</td> 
-			    <td>Best Seller Formula</td>
-			  </tr>
-			  <tr>
-			    <td>Biotin</td>
-			    <td>Blood Sugar Formula</td>
-			    <td>Caralluma</td>
-			  </tr>
-			  <tr>
-			    <td>Chlorella</td>
-			    <td>CLA</td>
-			    <td>Colon Sweep</td>
-			  </tr>
-			  <tr>
-			    <td>CoQ10</td>
-			    <td>Detox-Acai</td>
-			    <td>Diabetic Support</td>
-			  </tr>
-			  <tr>
-			    <td>Diet Drops</td>
-			    <td>Digestive Enzymes</td> 
-			    <td>Eye Formula</td>
-			  </tr>
-			  <tr>
-			    <td>Face Lift</td>
-			    <td>Hair/Skin/Nail Support</td>
-			    <td>Krill Oil</td>
-			  </tr>
-			  <tr>
-			    <td>Liver Support</td>
-			    <td>Male Enhancement</td>
-			    <td>Moringa</td>
-			  </tr>
-			  <tr>
-			    <td>Neuro/Brain Support</td>
-			    <td>Omega 3</td>
-			    <td>Oxy Burn</td>
-			  </tr>
-			</table>
+			<div id="catContainer">
+				<p class="catTerm">Women</p>
+				<p class="catTerm">Men</p>
+				<p class="catTerm">Weight</p>
+				<p class="catTerm">Digestive</p>
+				<p class="catTerm">Heart</p>
+				<p class="catTerm">Brain</p>
+				<p class="catTerm">Cleanse</p>
+				<p class="catTerm">All</p>
+			</div>
 		</div><!--end of category box-->
-
- 	</div><!--end top half container-->
 	
-	<!--slogan-->
-	<div id="sloganBox">
-		<p id="slogan">Your Journey to Health Begins Here...</p>
-	</div>
- 		
+		<!--slogan-->
+		<div id="sloganBox">
+			<p id="slogan">Your Journey to Health Begins Here</p>
+		</div>
+ 	</div><!--end top half container-->	
+
  	<!--Most Popular Section-->
- 	<div class="popLine">
- 		<p>Most Popular ____________________________________________________________________________________________________________</p>
+ 	<div id="popular">
+ 		<p class="popLine">Most Popular ____________________________________________________________</p>
  	</div>
 
 	<div id="mostPopularSlider" class="slider">
 		<div class ="mostPopularBox">
 				<a href="shopPages/anxiety.html">
-			  	<img src="assets/images/Renders/Anxiety/anxietySmall.jpg" alt="Anxiety Formula">
-			  	<h4 >Anxiety Formula</h4>
+			  	<img src="assets/images/Renders/Anxiety/anxietySmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Anxiety Formula">
+			  	<p class="mostPopularBox">Anxiety Formula</p>
 			  	<p>$12.99</p>
 		  	</a>
 		</div>
 		<div class ="mostPopularBox">
-			<a href="shopPages/B12.html">
-			  	<img src="assets/images/Renders/B12/B12Small.jpg" alt="B12">
-			  	<h4 >B12</h4>
-			  	<p>$12.99</p>
-			 </a>
-		</div>
-		<div class ="mostPopularBox">
 			<a href="shopPages/BS.html">
-			  	<img src="assets/images/Renders/Best Seller/BestSellerSmall.jpg" alt="Best Seller Formula">
-			  	<h4 >Best Seller Formula</h4>
+			  	<img src="assets/images/Renders/Best Seller/BestSellerSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Best Seller Formula">
+			  	<p class="mostPopularBox">Best Seller Formula</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/biotin.html">
-			  	<img src="assets/images/Renders/Biotin/biotinSmall.jpg" alt="Biotin">
-			  	<h4 >Biotin Pure</h4>
+			  	<img src="assets/images/Renders/Biotin/biotinSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Biotin">
+			  	<p class="mostPopularBox">Biotin Pure</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/sugar.html">
-			  	<img src="assets/images/Renders/Blood Sugar/sugarSmall.jpg" alt="Blood Sugar Formula">
-			  	<h4 >Blood Sugar Ultra</h4>
+			  	<img src="assets/images/Renders/Blood Sugar/sugarSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Blood Sugar Formula">
+			  	<p class="mostPopularBox">Blood Sugar Ultra</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/caralluma.html">
-			  	<img src="assets/images/Renders/Caralluma/caraSmall.jpg" alt="Caralluma">
-			  	<h4 >Caralluma</h4>
+			  	<img src="assets/images/Renders/Caralluma/caraSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Caralluma">
+			  	<p class="mostPopularBox">Caralluma</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/chlorella.html">
-			  	<img src="assets/images/Renders/Chlorella/chlorSmall.jpg" alt="Chlorella">
-			  	<h4 >Chlorella</h4>
+			  	<img src="assets/images/Renders/Chlorella/chlorSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Chlorella">
+			  	<p class="mostPopularBox">Chlorella</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/cla.html">
-			  	<img src="assets/images/Renders/CLA/claSmall.jpg" alt="CLA">
-			  	<h4 >CLA	</h4>
+			  	<img src="assets/images/Renders/CLA/claSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="CLA">
+			  	<p class="mostPopularBox">CLA	</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/colon.html">
-			  	<img src="assets/images/Renders/Colon/colonSmall.jpg" alt="Colon Sweep">
-			  	<h4 >Colon Sweep</h4>
+			  	<img src="assets/images/Renders/Colon/colonSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Colon Sweep">
+			  	<p class="mostPopularBox">Colon Sweep</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/coQ10.html">
-			  	<img src="assets/images/Renders/CoQ10/coQSmall.jpg" alt="CoQ10">
-			  	<h4 >CoQ10</h4>
+			  	<img src="assets/images/Renders/CoQ10/coQSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="CoQ10">
+			  	<p class="mostPopularBox">CoQ10</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/diabetic.html">
-			  	<img src="assets/images/Renders/Diabetic/diabeticSmall.jpg" alt="Diabetic Formula">
-			  	<h4 >Diabetic Formula</h4>
+			  	<img src="assets/images/Renders/Diabetic/diabeticSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Diabetic Formula">
+			  	<p class="mostPopularBox">Diabetic Formula</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>			
 		<div class ="mostPopularBox">
 			<a href="shopPages/dietDrops.html">
-			  	<img src="assets/images/Renders/Diet Drops/dietSmall.jpg" alt="Diet Drops">
-			  	<h4 >Diet Drops</h4>
+			  	<img src="assets/images/Renders/Diet Drops/dietSmall.jpg" style="height: 100px; width: 100px; margin: auto;" alt="Diet Drops">
+			  	<p class="mostPopularBox">Diet Drops</p>
 			  	<p>$12.99</p>
 			</a>
 		</div>
@@ -224,62 +183,74 @@
 	</div><!--end Most Popular-->
 
  	<!--New Products-->
- 	<div class="newProdLine">
- 		<p>New Products ____________________________________________________________________________________________________________</p>
+ 	<div id="newProducts">
+ 		<p class="popLine">New Products ____________________________________________________________</p>
  	</div>
- 	<div id="newProdRow" class="row">
 
- 		<div class="col-sm-4 newProdBox" style="border-right: 1px solid #0074b3;">
+ 	<div id="newProdRow">
+
+ 		<div class="newProdBox" style="border-right: 1px solid #0074b3;">
  			<div style="text-align: center;">
  				<p>New Product 1 info, blah, blah, blah, to you whom need the best, look no further.</p>
  				<p>$29.99</p>
  			</div>
  			<div>
- 				<img src="assets/images/newProducts/newProd1.jpg" alt="Diet Drops">
+ 				<img class="newProdImage" src="assets/images/newProducts/newProd1.jpg" style="height: 100px; width: 100px;" alt="Diet Drops">
  			</div>
  		</div>
 
-		<div class="col-sm-4 newProdBox" style="border-right: 1px solid #0074b3;">
+		<div class="newProdBox" style="border-right: 1px solid #0074b3;">
  			<div style="text-align: center;">
  				<p>New Product 2 info, blah, blah, blah, to you whom need the best, look no further.</p>
  				<p>$49.99</p>
  			</div>
  			<div>
- 				<img src="assets/images/newProducts/newProd2.jpg" alt="Diet Drops">
+ 				<img class="newProdImage" src="assets/images/newProducts/newProd2.jpg" style="height: 100px; width: 10" alt="Diet Drops">
  			</div>
  		</div>
 
- 		<div class="col-sm-4 newProdBox">
+ 		<div class="newProdBox">
  			<div style="text-align: center;">
  				<p>New Product 3 info, blah, blah, blah, to you whom need the best, look no further.</p>
  				<p>$69.99</p>
  			</div>
  			<div>
- 				<img src="assets/images/newProducts/newProd3.jpg" alt="Diet Drops">
+ 				<img class="newProdImage" src="assets/images/newProducts/newProd3.jpg" style="height: 100px; width: 10" alt="Diet Drops">
  			</div>
  		</div>
  	</div><!--closes row-->
 
  	<!--new image/new section-->
  	<div id="genInfoSection">
- 		<h1 id="jumbo">Natural Health Products That Really Work</h1>
+ 		<p id="jumbo">Natural Health Products That Really Work</p>
  		<div id="infoBox">
  			<p class="boxTerms">Discover a natural way to lose weight, boost your immune system, and feel your best. High Source Nutrition offers a range of nutritional supplements that are formulated to keep you healthy. Medicine is used to treat sickness, but our products are used to prevent you from getting sick in the first place. The food we eat these days is full of GMOs and artificial ingredients that are compromising our natural defenses against sickness and disease. By eating natural foods and taking the right supplements, you'll bring your systems back into balance and live a healthier lifestyle that's happy and vibrant.</p>
  		</div>
  	</div><!--end gen info section-->
 
+ 	<!--Shop Now-->
+ 	<div id="shopNow">
+ 		<p id="shopNowFont">Shop Now</p>
+ 	</div>
+
  	<!--footer-->
  	<div class="footer">
  		
  	</div>
-
+</div>
  	
 </html>
 
-<!--for Slick.js-->
-	<script>src="https://code.jquery.com/jquery-3.2.1.min.js"
-	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	  crossorigin="anonymous"</script>
+	<!-- Latest compiled and minified JavaScript -->
+		
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--for Slick.js-->	
   	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script src="slider.js"></script>
