@@ -45,8 +45,9 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 9%;
     width: 100%;
+    height: 50px;
     background-color: floralwhite;
-    padding-top: 5%;
+    padding-top: 3%;
     z-index: 99;
     margin-top: 10%;
 }
