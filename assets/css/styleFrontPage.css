@@ -94,7 +94,7 @@
     width: 110%;
     height: 350px; 
     background-repeat: no-repeat;
-    margin-top: 20%;
+    margin-top: 16%;
 }
 .topFoldContainer::-webkit-scrollbar { 
   display: none;
@@ -133,7 +133,7 @@
   order: 1;
   width: 100px;
   position: absolute;
-  top: 26%;
+  top: 30%;
   left: 41%;
   transform: translate(-50%, -50%);
 }
@@ -141,7 +141,7 @@
   order: 2;
   position: absolute;
   top: 32%;
-  left: 33%;
+  left: 37%;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   border-radius: 4px;
@@ -208,7 +208,7 @@
 }
 #sloganBox {
   position: absolute;
-  top: 375px;
+  top: 360px;
   background: transparent;
   width: 200px;
   left: 95px;
