@@ -91,7 +91,7 @@
     background-image: url("../images/journeyMobile1.jpg");
     background-size: cover;
     width: 110%;
-    height: 375px; 
+    height: 350px; 
     background-repeat: no-repeat;
     margin-top: 20%;
 }
@@ -132,15 +132,15 @@
   order: 1;
   width: 100px;
   position: absolute;
-  top: 23%;
+  top: 26%;
   left: 41%;
   transform: translate(-50%, -50%);
 }
 .shopButton {
   order: 2;
   position: absolute;
-  top: 25%;
-  left: 35%;
+  top: 32%;
+  left: 33%;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   border-radius: 4px;
@@ -151,7 +151,7 @@
   text-align: center;
   font-size: 1em;
   padding: 5px;
-  width: 100px;
+  width: 120px;
   height: 50px;
   transition: all 0.5s;
   cursor: pointer;
@@ -207,7 +207,7 @@
 }
 #sloganBox {
   position: absolute;
-  top: 309px;
+  top: 375px;
   background: transparent;
   width: 200px;
   left: 95px;
