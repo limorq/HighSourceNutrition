@@ -35,7 +35,7 @@
 	letter-spacing: 3px;
 	text-shadow: 2px 0px 10px black;
   font-size: 1em;
-  color: floralwhite;
+  color: #fffaf0;
   display: inline;
 }
 #navBar {
@@ -254,6 +254,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  
   order: 7;
   background: url("../images/naturalMobile.jpg");
   height: 281px; 
