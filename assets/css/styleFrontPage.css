@@ -2,7 +2,8 @@
   display: flex;
   flex-flow: column;
   justify-content: center;  
-  align-items: center;   
+  align-items: center;  
+  overflow: hidden; 
 }
 #brandBar {
   order: 0;
