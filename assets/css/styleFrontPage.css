@@ -93,9 +93,9 @@
     width: 100%;
     height: 375px; 
     background-repeat: no-repeat;
+    margin-top: 20%;
 }
 .topFoldContainer::-webkit-scrollbar { 
-  /* This is the magic bit */
   display: none;
 }
 .search {
