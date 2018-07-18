@@ -274,7 +274,7 @@
   display: inline-block;
   border-radius: 10px;
   background-color: floralwhite;
-  opacity: 0.7;
+  opacity: 0.6;
   border: 1px solid black;
   color: black;
   font-size: .75em;
@@ -290,6 +290,7 @@
   text-shadow: 4px 0px 10px black;
   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
+   margin-top: 4%;
 }
 #shopNow {
   order: 8;
