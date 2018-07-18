@@ -9,6 +9,8 @@ $(document).ready(function(){
 		  slidesToScroll: 1,
 		  variableWidth: false,
 		  arrows: true,
+		  mobileFirst: true,
+		  respondTo: 'slider',
 		  
 		});
   });
