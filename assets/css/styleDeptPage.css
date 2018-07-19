@@ -78,11 +78,8 @@ h3 {
   padding-top: 4%;
 }
 .wrapDept{
-  order: 1;
   width: 100px;
-  position: absolute;
-  top: 97%;
-  left: 38%;
+  margin: 5% auto 2% 40%;
   transform: translate(-50%, -50%);
 }
 #deptTable {
