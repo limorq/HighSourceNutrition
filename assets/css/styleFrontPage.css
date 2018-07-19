@@ -89,7 +89,7 @@
 }
 .topFoldContainer {
     order: 2;
-    background-image: url("../images/journeyMobile1.jpg");
+    background-image: url("../images/journeyMobile.jpg");
     background-size: cover;
     width: 110%;
     height: 345px; 
@@ -241,25 +241,26 @@
 #newProducts {
   order: 5;
 }
-#newProdRow {
-  order: 6;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; 
-  width: 90%;
-}
+
 .newProdBox {
-  display: flex;
-  flex-direction: column; 
-  align-content: center;
+  order: 6;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 90%;
 }
 .newProdHead {
   font-size: .9em;
   font-weight: bold;
+  text-align: center;
 }
 .newProdText {
   font-size: .7em;
   padding: 2px;
+  text-align: center
+}
+.price {
+  text-align: center;
+  padding-top: 10px;
 }
 #genInfoSection {
   display: flex;
