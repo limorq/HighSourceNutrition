@@ -321,7 +321,8 @@
 }
 .footer {
   order: 9;
-  height: 100px;
+  height: 150px;
+  width: 100%;
   background-color: #6D8A14;
   opacity: 0.8;
 }

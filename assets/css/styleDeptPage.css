@@ -1,11 +1,9 @@
 #deptBG {
-	background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../images/sand.jpg");
+	order: 4;
+	background-image: linear-gradient(rgba(102, 255, 102,0.6), rgba(0, 255, 255,0.6)), url("../images/sand.jpg");
 	  background-position: center;
 	  background-repeat: no-repeat;
-	  opacity: 0.8;
 	  width: 100%;
-	  position: absolute;
-	  z
 }
 h3 {
 	text-align: center;
@@ -13,11 +11,13 @@ h3 {
 	margin-top: 33%;
 }
 #deptLine {
-	height: 22px;
+	order: 3;
+	height: 35px;
 	background-color: #ff8c66;
 	text-align: center;
 	font-size: 1.2em;
 	margin-top: 30%;
+	width: 100%;
 }
 #container {
 	display: grid;

@@ -1,9 +1,9 @@
 $(document).ready(function(){
       $('.slider').slick({
 		  dots: true,
-		  infinite: false,
+		  infinite: true,
 		  speed: 500,
-		  autoplay: false,
+		  autoplay: true,
 		  autoplaySpeed: 5000,
 		  slidesToShow: 3,
 		  slidesToScroll: 3,
