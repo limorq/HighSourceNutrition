@@ -1,6 +1,6 @@
 #deptBG {
 	order: 4;
-	background-image: linear-gradient(rgba(102, 255, 102,0.6), rgba(0, 255, 255,0.6)), url("../images/sand.jpg");
+	background-image: linear-gradient(rgba(102, 255, 102,0.6), rgba(0, 255, 255,0.6)), url("../images/water.jpg");
 	  background-position: center;
 	  background-repeat: no-repeat;
 	  width: 100%;
@@ -38,4 +38,59 @@ h3 {
 }
 .deptText {
 	font-size: .7em;
+}
+#deptList {
+	order: 5;
+	background-image: linear-gradient(rgba(255, 255, 255,0.6), rgba(255, 255, 255,0.6)), url("../images/sand.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  width: 100%;
+	  height: 300px;
+}
+.search {
+  position: relative
+}
+.searchTerm {
+  float: left;
+  left 15;
+  border: 1px solid black;
+  padding: 5px;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 10px;
+}
+.searchTerm:focus {
+  color: #00B4CC;
+}
+.searchButton {
+  position: absolute;  
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 4%;
+}
+.wrapDept{
+  order: 1;
+  width: 100px;
+  position: absolute;
+  top: 82%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+#deptTable {
+	order: 6;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 5%;
+    font-size: .8em;
+    margin-left: 5%;
+    margin-top: 14%;
 }
