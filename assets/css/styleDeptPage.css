@@ -1,0 +1,40 @@
+#deptBG {
+	background: url("../images/sand.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  opacity: 0.8;
+	  width: 100%;
+	  position: absolute;
+}
+h3 {
+	text-align: center;
+	color: #1ac6ff;
+	margin-top: 33%;
+}
+#deptLine {
+	height: 22px;
+	background-color: #ff8c66;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 30%;
+}
+#container {
+	display: grid;
+  	grid-template-columns: auto auto auto;
+  	margin-top: 5%;
+  	margin-left: 2%;
+  	width: 95%;
+}
+.deptBox {
+	display: flex;
+	flex-direction: column; 
+	text-align: center;
+	color: black;
+}
+.deptHead {
+	font-size: 1em;
+	text-decoration: underline;
+}
+.deptText {
+	font-size: .7em;
+}
