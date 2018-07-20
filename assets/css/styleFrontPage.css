@@ -18,7 +18,7 @@
   top: 0; /* Position the navbar at the top of the page */
   z-index: 100;
 }
-#brand {
+.brand {
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
 	color: floralwhite;
@@ -30,7 +30,7 @@
   margin: -.1% auto 0 auto;
   padding-top: 10px;
 }
-#phone {
+.phone {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	letter-spacing: 3px;
@@ -39,7 +39,7 @@
   color: #fffaf0;
   display: inline;
 }
-#navBar {
+.navBar {
     order: 1;
   	display: flex;
   	flex-direction: row;

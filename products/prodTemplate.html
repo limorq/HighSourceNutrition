@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<title>Product Descriptions</title>
+
+    <!-- Link to the bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+	<!-- Link to the style sheet -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/styleFrontPage.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styleMedQuery768.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styleProduct.css">
+	<!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!--slick slider-->
+	<link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+	// Add the new slick-theme.css if you want the default styling
+	<link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+				
+</head>
+<body>
+	<div id="fluidContainer">
+		<!--Header Box-->
+	 	<div id="brandBar" class="fixed-top">
+	 		<p class="brand">HIGH SOURCE NUTRITION</p>
+	 		<p class="phone">(424) 279-5158</p>
+	 	</div>
+	 	<!--Nav Bar-->
+	 	<div class="navBar fixed-top">
+	 		<div>
+	 			<a href = "index.html">
+	 				<button id="homeButton">Home</button>
+	 			</a>
+	 		</div> 
+	 		<div>
+	 			<a href="departments.html">
+	 				<button class="navButton">Departments</button>
+	 			</a>
+	 		</div>
+	 		<div>
+	 			<a href="about.html">
+	 				<button class="navButton">About</button>
+	 			</a>
+	 		</div>
+	 		<div>
+	 			<a href="contact.html">
+	 				<button class="navButton">Contact</button>
+	 			</a>
+	 		</div>
+	 		<div>
+	 			<i id="cart" class="material-icons">shopping_cart</i>
+	 		</div>
+	 	</div>
+
+	 	<div class= "productBG">
+		  	<div class="prodImage">
+		    	<img class="pdp-product-image" id="main-product-image" src="../assets/images/Renders/Anxiety/anxiety.jpg" alt=""><br>
+		    	<div class="product-thumbs">
+		      		<div class="imageMenu"> <a class="sim-thumb" data-image="../assets/images/Renders/Anxiety/left.jpg"><img src="../assets/images/Renders/Anxiety/leftThumb.jpg" alt=""></a> </div>
+		      		<div class="imageMenu"> <a class="sim-thumb" data-image="../assets/images/Renders/Anxiety/anxiety.jpg"><img src="../assets/images/Renders/Anxiety/anxietyThumb.jpg" alt=""></a> </div>
+		      		<div class="imageMenu"> <a class="sim-thumb" data-image="../assets/images/Renders/Anxiety/right.jpg"><img src="../assets/images/Renders/Anxiety/rightThumb.jpg" alt=""></a> </div>
+		      	</div>
+		    </div>
+
+	 		<div class="prodDesciption">
+	 			
+	 		</div>
+	 		<div class="prodOrder">
+	 			
+	 		</div>
+	 	</div><!--close product BG-->
+
+		<!--footer
+	 	<div class="footer">
+	 		
+	 	</div>--><!--close footer-->
+ </div><!--close fluid container-->
+
+</html>
+<!-- Latest compiled and minified JavaScript -->
+		
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--for Slick.js-->	
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="sliderProduct.js"></script>
+	<script>
+		$('.sim-thumb').on('click', function() {
+		  $('#main-product-image').attr('src', $(this).data('image'));
+		});
+	</script>
+</body>
