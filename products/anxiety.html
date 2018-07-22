@@ -2,21 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="initial-scale=1.0">
-	<title>Anxiety Supplement</title>
+	<title>Anxiety Product Description</title>
 
     <!-- Link to the bootstrap cdn -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
 	<!-- Link to the style sheet -->
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" type="text/css" href="../assets/css/styleFrontPage.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/styleMedQuery768.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/styleProduct.css">
+    <link rel="stylesheet" href="css/styleGallery.css" type="text/css" media="all" charset="utf-8"/>
+	<link rel="stylesheet" href="css/styleGallery.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 	<!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    
+				
 </head>
 <body>
 	<div id="fluidContainer">
@@ -28,22 +33,22 @@
 	 	<!--Nav Bar-->
 	 	<div class="navBar fixed-top">
 	 		<div>
-	 			<a href = "index.html">
+	 			<a href = "../index.html">
 	 				<button id="homeButton">Home</button>
 	 			</a>
 	 		</div> 
 	 		<div>
-	 			<a href="departments.html">
+	 			<a href="../departments.html">
 	 				<button class="navButton">Departments</button>
 	 			</a>
 	 		</div>
 	 		<div>
-	 			<a href="about.html">
+	 			<a href="../about.html">
 	 				<button class="navButton">About</button>
 	 			</a>
 	 		</div>
 	 		<div>
-	 			<a href="contact.html">
+	 			<a href="../contact.html">
 	 				<button class="navButton">Contact</button>
 	 			</a>
 	 		</div>
@@ -52,26 +57,49 @@
 	 		</div>
 	 	</div>
 
-	 	<div class= "productBG">
-	 		<div class="prodImage">
-	 			<div class="imageSlider">
-					<div>your content</div>
-					<div>your content</div>
-					<div>your content</div>
-				</div>
-	 		</div>
-	 		<div class="prodOrder">
-	 			
-	 		</div>
-	 		<div class="prodDesciption">
-	 			
-	 		</div>
-	 	</div><!--close product BG-->
+		<!--image gallery-->
+		<section class="cd-single-item">
+			<div class="cd-slider-wrapper">
+				<ul class="cd-slider">
+					<li class="selected"><img src="../assets/images/Renders/Anxiety/anxiety.jpg" alt="Product Image 1"></li>
+					<li><img src="../assets/images/Renders/Anxiety/left.jpg" alt="Product Image 1"></li>
+					<li><img src="../assets/images/Renders/Anxiety/right.jpg" alt="Product Image 2"></li>
+				</ul> <!-- cd-slider -->
 
-	 <!--footer-->
- 	<div class="footer">
- 		
- 	</div><!--close footer-->
+				<ul class="cd-slider-navigation">
+					<li><a href="#0" class="cd-prev inactive"><img src="../assets/images/icons/back.png"></a></li>
+					<li><a href="#0" class="cd-next"><img src="../assets/images/icons/next.png"></a></li>
+				</ul> <!-- cd-slider-navigation -->
+
+				<a href="#0" class="cd-close">Close</a>
+			</div> <!-- cd-slider-wrapper -->
+
+			<div class="cd-item-info">
+				<h2>Anxiety Formula</h2>
+
+				<p>Promotes Cognitive health. Supports a relaxed mood and may help with calming stress.</p>
+
+				<button class="add-to-cart">Add to cart</button>						
+			</div> <!-- cd-item-info -->
+		</section> <!-- cd-single-item -->
+
+		<section class="cd-content">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem, quisquam veniam sequi in quasi excepturi laudantium fugit nihil odio minima quae consequuntur dolorum pariatur obcaecati, adipisci dignissimos officia saepe itaque deleniti porro odit vitae voluptate. Blanditiis sunt obcaecati corporis, alias adipisci. Eum illum voluptatibus expedita nulla eius provident pariatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem, quisquam veniam sequi in quasi excepturi laudantium fugit nihil odio minima quae consequuntur dolorum pariatur obcaecati, adipisci dignissimos officia saepe itaque deleniti porro odit vitae voluptate.
+			</p>
+		</section>
+	 	<!--close image gallery-->
+
+		<!--footer-->
+	 	<div class="footer">
+
+	 	</div><!--close footer-->
+
  </div><!--close fluid container-->
-</body>
+
 </html>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</body>

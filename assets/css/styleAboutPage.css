@@ -2,7 +2,7 @@
 	order: 3;
 	display: flex;
 	flex-direction: column;
-	background-image: url("../images/test3.jpg");
+	background-image: url("../images/about2.jpg");
 	  background-position: center;
 	  background-repeat: no-repeat;
 	  width: 100%;
@@ -10,14 +10,16 @@
 	border-top: 2px solid #809502;
 }
 #aboutHead {
-	color: #253f17;
+	color: floralwhite;
 	font-family: 'Playball', cursive;
 	font-weight: bold;
 	text-align: center;
 	font-size: 3em;
 	margin-top: 30%;
 	padding-top: 5%;
-	
+	text-shadow: 4px 0px 10px black;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 #aboutBox {
   height: 385px;
@@ -30,5 +32,5 @@
   font-size: .90em;
   text-align: center;
   padding: 20px 10px 10px 10px;
-  margin-left: 9%;
+  margin-left: 17%;
 }

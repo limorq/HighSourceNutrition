@@ -32,6 +32,7 @@
 .pdp-product-image:hover {
     height: 400px;
     width: 400px; 
+    margin-left: 20%;
 }
 
 .product-thumbs {
