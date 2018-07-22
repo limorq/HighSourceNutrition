@@ -22,7 +22,7 @@
     -webkit-text-stroke-color: black;
 }
 #aboutBox {
-  height: 385px;
+  height: 400px;
   width: 310px;
   display: inline-block;
   border-radius: 10px;
@@ -32,5 +32,5 @@
   font-size: .90em;
   text-align: center;
   padding: 20px 10px 10px 10px;
-  margin-left: 17%;
+  margin-left: 9%;
 }
