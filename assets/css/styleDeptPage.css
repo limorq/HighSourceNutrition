@@ -1,6 +1,6 @@
 #deptBG {
 	order: 4;
-	background-image: linear-gradient(rgba(102, 255, 102,0.6), rgba(0, 255, 255,0.6)), url("../images/water.jpg");
+	background: linear-gradient(rgba(102, 255, 102,0.6), rgba(0, 255, 255,0.6));
 	  background-position: center;
 	  background-repeat: no-repeat;
 	  width: 100%;

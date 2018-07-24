@@ -11,10 +11,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
 	<!-- Link to the style sheet -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/styleFrontPage.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styleDeptPage.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styleProducts.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery768.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/styleDeptPage.css">
+    
 	<!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab|Playball" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -51,9 +53,90 @@
 	 			<i id="cart" class="material-icons">shopping_cart</i>
 	 		</div>
 	 	</div>
+
+	 	<header>
+			<h1>Product Categories</h1>
+		</header>
 		
-		<div id="deptLine">
-			<p></p>SHOP FOR YOUR PRODUCTS HERE...
+		<ul class="cd-items cd-container">
+			<li class="cd-item">
+				<img src="assets/images/categories/man.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Men's Health</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/woman.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Women's Health</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/general.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">General Health</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/wl.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Weight Loss</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/heart.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Heart Health</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/brain.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Brain Support</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/digest.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Digestion Aides</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/diabetes.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Diabetic Support</a>
+			</li> <!-- cd-item -->
+
+			<li class="cd-item">
+				<img src="assets/images/categories/detox.jpg" style="margin: auto;" alt="Item Preview">
+				<a href="#0" class="cd-trigger">Detoxify</a>
+			</li> <!-- cd-item -->
+
+		</ul> <!-- cd-items -->
+
+		<div class="cd-quick-view">
+			<!--<div class="cd-slider-wrapper">
+				<ul class="cd-slider">
+					<li class="selected"><img src="assets/images/about1.jpg" alt="Product 1"></li>
+					<li><img src="assets/images/about1.jpg" alt="Product 2"></li>
+					<li><img src="assets/images/about1.jpg" alt="Product 3"></li>
+				</ul>--> <!-- cd-slider -->
+
+				<!--<ul class="cd-slider-navigation">
+					<li><a class="cd-next" href="#0">Prev</a></li>
+					<li><a class="cd-prev" href="#0">Next</a></li>
+				</ul>--> <!-- cd-slider-navigation -->
+			<!--</div>--> <!-- cd-slider-wrapper -->
+
+			<div class="cd-item-info">
+				<h2>Men's Health</h2>
+				<div class="alignProducts">
+					<a href="products/Male.html"><p>Male Enhancement</p></a>
+					<a href="products/Liver.html"><p>Liver Support</p></a>
+					<a href="products/HNS.html"><p>Hair/Nails/Skin</p></a>
+					<a href="products/Nuero.html"><p>Nuero Support</p></a>
+					<a href="products/Moringa.html"><p>Moringa</p></a>
+					<a href="products/CoQ.html"><p>CoQ10</p></a>
+					<a href="products/Eye.html"><p>Eye Formula</p></a>
+				</div>
+			</div> <!-- cd-item-info -->
+			<a href="#0" class="cd-close">close</a>
+		</div> <!-- cd-quick-view -->
+		
+		<!--<div id="deptLine">
+			<p>SHOP FOR YOUR PRODUCTS HERE...</p>
 		</div>
 		<div id="deptBG">
 			<div id="container">
@@ -112,8 +195,8 @@
 					<p class="deptText">Stay strong and healthy with heart supplements that can keep you going</p>
 				</div>
 
-			</div><!--close container-->
-		</div><!--close deptBG-->
+			</div>--><!--close container-->
+		<!--</div>--><!--close deptBG-->
 
 		<div id="deptList">
 			<!--search box-->
@@ -208,4 +291,7 @@
 </div>
 
 </html>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>

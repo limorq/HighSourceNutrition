@@ -12,7 +12,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
 	<!-- Link to the style sheet -->
     <link rel="stylesheet" type="text/css" href="./assets/css/styleFrontPage.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery321.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery768.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery1224.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery1824.css">
+
 	<!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab|Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -20,6 +24,7 @@
     <!--Slick.js-->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	
  </head>
 
 <body>
@@ -59,10 +64,11 @@
 
  	<!--container that holds eveything on top of the background image in the top half of the page-->
  	<div class="topFoldContainer">
+
  		<!--search box-->
 		<div class="wrap">
 		   <div class="search">
-		      <input type="text" class="searchTerm" placeholder="Product Search...">
+		      <input type="text" id="search" class="searchTerm" placeholder="Product Search...">
 		      <button type="submit" class="searchButton">
 		        <p><span class="glyphicon glyphicon-search" style="right: 3.6px; top: 0px;"></span></p>
 		     </button>
@@ -71,7 +77,7 @@
 
 		<!--shop now box-->
 		<div>
-			<button class="shopButton" style="vertical-align:middle"><span>Shop Now </span></button>
+			<a href="departments.html"><button class="shopButton" style="vertical-align:middle"><span>Shop Now </span></button></a>
 		</div><!--end of shop now box-->
 
 		<!--category box-->
@@ -87,7 +93,7 @@
 				<p class="catTerm">Brain</p>
 				<p class="catTerm">Immunity</p>
 				<p class="catTerm">Diabetes</p>
-				<p class="catTerm">Energy/Superfoods</p>
+				<p class="catTerm">Energy</p>
 			</div>
 		</div><!--end of category box-->
 	
@@ -195,9 +201,9 @@
 			<p class="newProdHead">Water Ionizer</p>
 			<p class="newProdHead">LED Facial Hammer</p>
 
-			<img src="assets/images/newProducts/newProduct1.png" style="height: 112px; width: 112px;" alt="Infrared portable foot sauna">
-			<img src="assets/images/newProducts/newProduct2.jpg" style="height: 112px; width: 112px;" alt="Water Ionizer">
-			<img src="assets/images/newProducts/newProduct3.jpg" style="height: 112px; width: 112px;" alt="Water Ionizer">
+			<img src="assets/images/newProducts/newProduct1.png" style="height: 112px; width: 112px; border: 1px solid lightgrey; border-radius: 2px; margin: auto;" alt="Infrared portable foot sauna">
+			<img src="assets/images/newProducts/newProduct2.jpg" style="height: 112px; width: 112px; border: 1px solid lightgrey; border-radius: 2px; margin: auto;" alt="Water Ionizer">
+			<img src="assets/images/newProducts/newProduct3.jpg" style="height: 112px; width: 112px; border: 1px solid lightgrey; border-radius: 2px; margin: auto;" alt="Water Ionizer">
 
 			<p class="price">$49.99</p>
 			<p class="price">$29.99</p>	
@@ -220,9 +226,9 @@
  	</div><!--end gen info section-->
 
  	<!--Shop Now-->
- 	<div id="shopNow">
+ 	<a href="departments.html"><div id="shopNow">
  		<p id="shopNowFont">Shop Now</p>
- 	</div>
+ 	</div></a>
 
  	<!--footer-->
  	<div class="footer">
@@ -241,8 +247,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<!--for Slick.js-->	
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  	<!--for Slick.js-->	
   	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script src="slider.js"></script>
 </body>
