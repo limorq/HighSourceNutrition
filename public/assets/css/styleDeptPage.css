@@ -1,0 +1,118 @@
+body {
+  font-size: 100%;
+  background-color: #47374e;
+}
+
+.brand {
+	font-size: 3em;
+}
+.brandDept {
+    font-family: 'Lato', sans-serif;
+    color: floralwhite;
+    text-shadow: 4px 0px 10px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2.4em;
+    font-weight: bold;
+    margin: -.1% auto 0 auto;
+    padding-top: 10px;
+  }
+#homeButton {
+	font-size: 1.4em;
+}
+#homeButton:hover {
+	font-size: 1.4em;
+}
+.navButton {
+	font-size: 1.4em;
+}
+.navButton:hover {
+	font-size: 1.4em;
+}
+#prodHead {
+  color: floralwhite;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  text-shadow: 4px 0px 10px black;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-top: 35%;
+  padding-bottom: 3%;
+}
+#galleryTab{
+	display: grid;
+	grid-template-columns: [col1] auto [col2] auto [col3] auto;
+	grid-gap: 10px 10px;
+}
+.viewAll {
+	grid-column: 2;
+}
+.galleryImage {
+	height: 100px;
+	width: 100px;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
+.fancybox {
+  height: 150px;
+  width: 150px;
+}
+.filter {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #fff2e6;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+}
+.galleryWrap {
+	display: none; /* Hidden by default */
+  grid-template-columns: 100px 100px 100px;
+  justify-content: space-evenly;
+  z-index: 1; /* Sit on top */
+  left: 80px;
+  top: 500px;	
+	width: 100%;
+  background-color: #ffd1b3;
+  padding: 10px;
+}
+
+.search {
+  position: relative
+}
+.searchTerm {
+  float: left;
+  left 15;
+  border: 1px solid black;
+  padding: 5px;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 10px;
+}
+.searchTerm:focus {
+  color: #00B4CC;
+}
+.searchButton {
+  position: absolute;  
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 4%;
+}
+.wrapDept{
+  width: 100px;
+  margin: 5% auto 2% 40%;
+  transform: translate(-50%, -50%);
+}
+
