@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0">
-	<title>About High Source Health</title>
+	<title>Contact or Email High Source Health</title>
 
     <!-- Link to the bootstrap cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -12,9 +12,9 @@
 	<!-- Link to the style sheet -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/styleFrontPage.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/styleMedQuery768.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/styleAboutPage.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleContactPage.css">
 	<!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lato:700|Roboto+Slab|Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -43,22 +43,44 @@
 	 			</a>
 	 		</div>
 	 		<div>
-	 			<a href="contact.html">
+	 			<a href="contact">
 	 				<button class="navButton">Contact</button>
 	 			</a>
 	 		</div>
 	 		<div>
 	 			<i id="cart" class="material-icons">shopping_cart</i>
 	 		</div>
-	 	</div>
+	 	</div><!--close navbar-->
 
-	 
+	 	<!--contact Header-->
+	 	<div id="contactBG">	
+	 			<p id="contactHead">CONTACT US</p>	
 
-	 <!--footer-->
- 	<div class="footer">
- 		
- 	</div>
- </div><!--close fluid container-->
+	 	<!--email form-->
+	 	 <div class="form">
+			<form action="action_page.php">
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname">
+
+			<label for="email">Your Email Address</label>
+			<input type="text" id="email" name="email">
+
+			<label for="phone">Contact Phone #</label>
+			<input type="text" id="phone" name="phoneNumber">
+
+			<label for="subject">Your Message</label>
+			<textarea id="subject" name="subject" placeholder="Write your message here.." style="height:100px"></textarea>
+
+			<input type="submit" value="Submit">
+
+			</form>
+		</div> <!--close form-->
+	</div>
+	 </div><!--close fluid container-->
 
 </html>
 </body>

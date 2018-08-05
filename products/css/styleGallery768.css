@@ -1,0 +1,29 @@
+
+.cd-content p {
+	padding: 2% 0 22% 0;
+}
+#prodHead {
+    margin-top: 18%;
+  }
+ #galleryTab {
+    margin-top: 3%;
+    grid-template-columns: auto auto auto auto auto;
+  }
+ .wrapDept {
+    margin: 5% auto 2% 47%;
+  }
+ .galleryWrap {
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 25px 3px;
+  }
+ .fancybox {
+    width: 100px;
+    height: 100px;
+  }
+ .galleryImage {
+    width: 100px;
+    height: 100px;
+  }
+ .filter {
+    width: 125px;
+  }
