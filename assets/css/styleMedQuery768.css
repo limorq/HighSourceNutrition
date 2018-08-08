@@ -1,5 +1,4 @@
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
   #brandBar {
     height: 80px;
   }
@@ -117,4 +116,5 @@
   .newProdImage {
     margin: 0 auto 0 25%;
   }
+}
   

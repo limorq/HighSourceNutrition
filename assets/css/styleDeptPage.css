@@ -12,6 +12,19 @@ body {
     margin: -.1% auto 0 auto;
     padding-top: 10px;
   }
+  @media only screen and (min-width: 768px) {
+    .brandDept {
+      font-family: 'Lato', sans-serif;
+      color: floralwhite;
+      text-shadow: 4px 0px 10px black;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      font-size: 3em;
+      font-weight: bold;
+      margin: -.1% auto 0 auto;
+      padding-top: 10px;
+    }
+}
 #prodHead {
   color: floralwhite;
   font-family: 'Roboto Slab', serif;
@@ -22,10 +35,20 @@ body {
   margin-top: 35%;
   padding-bottom: 3%;
 }
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  #prodHead {
+    margin-top: 20%;
+  }
+}
 #galleryTab{
 	display: grid;
 	grid-template-columns: [col1] auto [col2] auto [col3] auto;
 	grid-gap: 10px 10px;
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  #galleryTab {
+    width: 80%;
+  }
 }
 .viewAll {
 	grid-column: 2;
@@ -65,7 +88,6 @@ body {
 	width: 100%;
   background-color: #ffd1b3;
   padding: 20px 20px 120px 20px;
-  margin-bottom: 150px;
 }
 .prodName {
   color: #0074b3;
@@ -105,11 +127,15 @@ body {
 }
 .wrapDept{
   width: 100px;
-  margin: 5% auto 2% 40%;
-  transform: translate(-50%, -50%);
+  margin: 10% auto 2% 30%;
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .wrapDept {
+    margin: 7% auto 2% 40%;
+  }
 }
 .footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   z-index: 200;
 }

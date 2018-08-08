@@ -41,6 +41,9 @@ header {
       line-height: 200px; }
       header h1 {
         font-size: 2.6rem; } }
+.brand {
+  padding-top: 10px;
+}
 
 .cd-single-item {
   position: relative;
@@ -68,6 +71,11 @@ header {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   will-change: width; }
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .cd-slider-wrapper {
+      margin-top: 10px;
+    }
+  }
   @media only screen and (min-width: 1024px) {
     .cd-slider-wrapper {
       width: 50%; }
@@ -100,6 +108,12 @@ header {
     .cd-slider li img {
       display: block;
       width: 100%; }
+    @media only screen and (min-width : 768px) and (max-width : 1024px) {
+      .cd-slider li img {
+        width: 60%;
+        margin: auto; 
+      }
+    }
     .cd-slider li.selected {
       position: relative;
       z-index: 2;
@@ -314,7 +328,12 @@ header {
 
 .cd-content {
   width: 80%;
-  max-width: 768px;
   color: floralwhite;
   line-height: 1.8;
 }
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .cd-content p {
+  padding: 2% 0 7% 0;
+}
+}
+
